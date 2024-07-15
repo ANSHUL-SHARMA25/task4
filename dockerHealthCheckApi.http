@@ -1,0 +1,6 @@
+@dockerHealthCheckApi_HostAddress = http://localhost:5079
+
+GET {{dockerHealthCheckApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
